@@ -1,0 +1,51 @@
+
+div > img {float: left; 
+  			  max-height: 350px;
+    		  max-width: 400px;
+    		  margin: 20px;}
+
+article { display: grid;
+		  grid-template-columns: repeat(2, 1fr); 
+		  grid-column-gap: 20px;
+		  margin: 70px;}
+
+section{ border-style: groove;
+		 border-color: royalblue; 
+		 padding: 20px;}
+
+
+/* ==================================
+	Mobile Styles:  0 to 480 pixels
+	==================================
+*/
+@media only screen and (max-width: 480px) {  
+
+article { display: flex;
+		  flex-flow: row wrap; 
+		  margin: 10px;}
+	  
+#img2 { display: none; }
+
+section{ max-width: 100%;
+         padding: 10px;}
+}
+
+
+/* ==================================
+   Tablet Styles:  481px and greater
+   ==================================
+*/
+@media only screen and (min-width: 481px) {  
+
+article { margin: 15px; }
+
+section{ max-width: 100%;
+            padding: 10px;}
+}
+/* ==================================
+   Desktops Styles:  796px and greater
+   ==================================
+*/
+@media only screen and (min-width: 796px) { 
+article{ margin:50px; }}
+

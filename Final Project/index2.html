@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title> Reservations</title>
+	<link href="reserve.css" rel="stylesheet" />
+	<link href="layout.css" rel="stylesheet" />
+	<link href="reserve.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
+
+</head>
+
+
+<body>
+<header> 
+	<h1> Latin Restaurant </h1>
+		<nav class="navigation">
+		 <ul> 
+			<li> <a href="aboutus.html"> About Us </a></li>
+			<li> <a href="menu.html"> Menu </a> </li>
+			<li> <a href=" "> Locations </a> </li>
+			<li> <a href="reservatios.html"> Reservations </a> </li>
+			<li> <a href=" "> Contact Us </a> </li>
+		</ul> 
+	    </nav>
+</header>
+
+<form method="post" action="mailto:latinrestaurant@mail.com">
+
+	<fieldset> <legend> Table Reservation </legend>
+Name: <input type="text" name="attendename" size="20" /> <br/>
+Phone Number: <input type="text" name="phonenum" size="20"/> <br/>
+E-mail Address: <input type="text" name="email" size="20"/> <br/>
+Date: <input type="text" name="date" size="20"/>  
+Time: <select name="time"> 
+		<option>Select</option>
+		<option> 1:00 PM </option>
+		<option> 2:00 PM </option>
+		<option> 3:00 PM </option>
+		<option> 4:00 PM </option>
+		<option> 5:00 PM </option>
+		<option> 6:00 PM </option>
+		<option> 7:00 PM </option>
+		<option> 8:00 PM</option>
+		<option> 9:00 PM</option>
+	  </select>
+Party Number:  <select name="partynum"> 
+		<option>Select</option>
+		<option> 2 </option>
+		<option> 3 </option>
+		<option> 4 </option>
+		<option> 5 </option>
+		<option> 6 </option>
+		<option> 7 </option>
+	  </select>
+</fieldset>
+
+<p> <input type="submit" name="Submit"/> </p>
+
+</form>
+
+<footer> <p> <em> You will receive a confirmation email about your reservation shortly. Thank you for your reservation we look forward to seeing you! </em> </p> </footer>
+</body>
+</html>
